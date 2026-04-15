@@ -261,6 +261,10 @@ ul { list-style: none; }
     margin: 0 auto 0 0; /* Align left within container */
 }
 
+.hero-content h1 {
+    color: #fff;
+}
+
 .badge {
     display: inline-block;
     padding: 0.5rem 1rem;
@@ -395,6 +399,7 @@ ul { list-style: none; }
 }
 
 .statement-text {
+    color: #fff;
     font-size: clamp(2rem, 4vw, 3rem);
     font-family: var(--font-heading);
     font-weight: 400;
